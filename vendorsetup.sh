@@ -53,9 +53,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
         export FOX_VARIANT="Miui/Port"
-       export OF_NO_KEYMASTER_VER_4X=1
-export OF_DEFAULT_KEYMASTER_VERSION=4.1
-
+       
 	# R11.1 Settings
 	export OF_MAINTAINER="Esteh"
 
